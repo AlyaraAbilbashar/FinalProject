@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="Nopackage" >
+        <classes>
+            <class name="Tests.RunTest">
+                <methods>
+                    <include name="login_test"></include>
+                    <include name="account_overview"></include>
+                    <include name="transfer_funds"></include>
+                    <include name="bill_pay"></include>
+                    <include name="details_info"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+</suite>
