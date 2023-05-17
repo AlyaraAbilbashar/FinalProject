@@ -45,6 +45,6 @@ public class AccountsOverviewPage {
     }
     public TransferFundsPage navigate_next_page(){
         next_link.click();
-        return new TransferFundsPage(driver)
+        return new TransferFundsPage(driver);
     }
 }
